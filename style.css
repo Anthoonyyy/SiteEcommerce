@@ -124,8 +124,20 @@ p {
 }
 
 /*Ajout d'un id pour changer les SHOP NOW de manière individuelle*/
-#Shop {
+#Shop1 {
     position: relative;
     bottom: 270px;
     left: 42%;
+}
+
+#collectionHomme {
+    position: relative;
+    left: 26%;
+    top: -50px;
+}
+
+#Shop2 {
+    position: relative;
+    left: 32%;
+    top: -50px;
 }
