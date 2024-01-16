@@ -84,8 +84,6 @@ video {
     top: -60px;
     left: 22%;
 
-
-
 }
 
 #photoHomme img {
@@ -106,7 +104,7 @@ p {
 #collectionFemme {
     position: relative;
     bottom: 270px;
-    left: 37%;
+    left: 30%;
 }
 
 /*Classe shopNow car y'en a plusieurs et ils auront le même style*/
@@ -127,17 +125,45 @@ p {
 #Shop1 {
     position: relative;
     bottom: 270px;
-    left: 42%;
+    left: 36%;
 }
 
 #collectionHomme {
     position: relative;
-    left: 26%;
-    top: -50px;
+    left: 48%;
+    top: -320px;
 }
 
 #Shop2 {
     position: relative;
+    left: 54%;
+    top: -320px;
+}
+
+#accessoires {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -150px;
+    left: 110vh;
+
+}
+
+#accessoires img {
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+    width: 400px;
+}
+
+#collectionAccessoires {
+    position: relative;
     left: 32%;
-    top: -50px;
+    top: -390px;
+}
+
+#Shop3 {
+    position: relative;
+    left: 39%;
+    top: -390px;
 }
