@@ -36,10 +36,12 @@ li a {
     font-family: 'Inter', sans-serif;
 }
 
+/*Ajoute une bordure rouge en dessous des liens li*/
 li a:hover {
     border-bottom: 2px solid red;
 }
 
+/*Correspond à la photo du logo "Fashion"*/
 #logo {
     width: 250px;
     display: block;
@@ -49,6 +51,7 @@ li a:hover {
 
 }
 
+/*Représente les icones loupe, coeur, panier etc*/
 .icones img {
     margin: 12px;
     position: relative;
@@ -57,17 +60,20 @@ li a:hover {
 
 }
 
+/*Représente la vidéo mise en bannière*/
 video {
     width: 100%;
     max-height: 60em;
 }
 
+/*Correspond à la photo à l'intérieur de la figure qui as l'id photoFemme */
 #photoFemme img {
     object-fit: cover;
     object-position: center;
     height: 400px;
 }
 
+/*Correspond à la figure portant l'id de photoFemme (le container de l'image de la femme*/
 #photoFemme {
     width: 400px;
     height: 400px;
@@ -77,6 +83,7 @@ video {
 
 }
 
+/*Correspond à la figure portant l'id de photoHomme (le container de l'image de l'homme*/
 #photoHomme {
     width: 400px;
     height: 400px;
@@ -86,6 +93,7 @@ video {
 
 }
 
+/*Correspond à la photo de l'homme à l'intérieur de la figure qui as l'id photoHomme */
 #photoHomme img {
     object-fit: cover;
     object-position: center;
@@ -93,7 +101,8 @@ video {
     width: 400px;
 }
 
-p {
+/*Correspond à tous les paragraphes à l'intérieur de la balise section*/
+section p {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
@@ -107,7 +116,7 @@ p {
     left: 30%;
 }
 
-/*Classe shopNow car y'en a plusieurs et ils auront le même style*/
+/*Classe shopNow car y'a plusieurs lien "SHOP NOW" et ils auront le même style*/
 .shopNow {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
@@ -117,29 +126,33 @@ p {
     font-weight: 700;
 }
 
+/*Ajoute une bordure en bas au survol des SHOP NOW*/
 .shopNow:hover {
     border-bottom: 2px solid red;
 }
 
-/*Ajout d'un id pour changer les SHOP NOW de manière individuelle*/
+/*Ajout d'un id pour changer les SHOP NOW de manière individuelle, celui ci est celui de la collection femmes*/
 #Shop1 {
     position: relative;
     bottom: 270px;
     left: 36%;
 }
 
+/*paragraphe "Hommes collection 2024" avec un id pour pouvoir changer le positionnement (qui est différent des autres)*/
 #collectionHomme {
     position: relative;
     left: 48%;
     top: -320px;
 }
 
+/*Ajout d'un id pour changer les SHOP NOW de manière individuelle, celui ci est celui de la collection hommes*/
 #Shop2 {
     position: relative;
     left: 54%;
     top: -320px;
 }
 
+/*Correspond à la figure portant l'id d'accessoires' (le container de l'image des accessoires*/
 #accessoires {
     width: 400px;
     height: 400px;
@@ -149,6 +162,7 @@ p {
 
 }
 
+/*Correspond à la photo des accessoires à l'intérieur de la figure qui as l'id accessoires */
 #accessoires img {
     object-fit: cover;
     object-position: center;
@@ -156,12 +170,14 @@ p {
     width: 400px;
 }
 
+/*paragraphe "Accessoires collection 2024" avec un id pour pouvoir changer le positionnement (qui est différent des autres)*/
 #collectionAccessoires {
     position: relative;
     left: 32%;
     top: -390px;
 }
 
+/*Ajout d'un id pour changer les SHOP NOW de manière individuelle, celui ci est celui de la collection accessoires*/
 #Shop3 {
     position: relative;
     left: 39%;
