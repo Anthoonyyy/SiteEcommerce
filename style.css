@@ -183,3 +183,9 @@ section p {
     left: 39%;
     top: -390px;
 }
+
+footer {
+    background-color: #b8c1d5;
+    height: 350px;
+    padding-top: 70px;
+}
