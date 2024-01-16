@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap');
 
+@font-face {
+    font-family: 'Black Mango';
+    src: url(fonts/Black\ Mango\ Regular.ttf);
+}
 
 body {
     margin: 0;
@@ -54,7 +59,73 @@ li a:hover {
 
 video {
     width: 100%;
-    padding-bottom: 53.25%;
     max-height: 60em;
+}
 
+#photoFemme img {
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+}
+
+#photoFemme {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 49%;
+    margin-top: 100px;
+
+}
+
+#photoHomme {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -60px;
+    left: 22%;
+
+
+
+}
+
+#photoHomme img {
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+    width: 400px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+/*paragraphe "Femmes collection 2024" avec un id pour pouvoir changer le positionnement*/
+#collectionFemme {
+    position: relative;
+    bottom: 270px;
+    left: 37%;
+}
+
+/*Classe shopNow car y'en a plusieurs et ils auront le même style*/
+.shopNow {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.shopNow:hover {
+    border-bottom: 2px solid red;
+}
+
+/*Ajout d'un id pour changer les SHOP NOW de manière individuelle*/
+#Shop {
+    position: relative;
+    bottom: 270px;
+    left: 42%;
 }
