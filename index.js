@@ -9,4 +9,4 @@ function ChangeSlide(sens) {
         numero = slide.length - 1;
     document.getElementById("slide").src = "sliders/" + slide[numero];
 }
-setInterval("ChangeSlide(1)", 4000);
+setInterval("ChangeSlide(1)", 3000);
