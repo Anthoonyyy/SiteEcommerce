@@ -104,6 +104,32 @@ li a:hover {
     opacity: 1;
 }
 
+#texte {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    top: 19%;
+    left: 28%;
+}
+
+#texte h2 {
+    font-size: 75px;
+    margin-left: -190px;
+}
+
+#texte p {
+    font-size: 40px;
+    position: relative;
+    left: -40px;
+    top: 20px;
+}
+
+.animate__lightSpeedInLeft,
+.animate__lightSpeedInRight {
+    animation-duration: 2s;
+
+
+}
+
 /*---------------------------------------------Fin du Slider-------------------------------------------------------------------------*/
 
 /*Correspond à la photo à l'intérieur de la figure qui as l'id photoFemme */
