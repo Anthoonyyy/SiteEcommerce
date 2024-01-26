@@ -257,22 +257,24 @@ footer {
     padding-top: 70px;
 }
 
-#logoFooter img{
+#logoFooter img {
     width: 250px;
     margin-left: 260px;
 }
 
-#logoFooter p{
+#logoFooter p {
     text-align: justify;
     margin-left: 240px;
     margin-top: 25px;
     margin-bottom: 55px;
 }
 
-#paiements img{
+#paiements img {
     width: 35px;
 }
 
-#paiements{
+#paiements {
     margin-left: 300px;
 }
+
+@media only screen and (min-width:1534px) and (max-width: 1920px) {}
