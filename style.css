@@ -14,52 +14,65 @@ body {
 }
 
 /* --------------------------NAVBAR----------------------------------------------------------*/
-nav {
+#navbar {
     background-color: transparent;
     height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 ul {
     list-style-type: none;
     margin: 0;
+    display: flex;
+    margin-left: 6em;
+
 }
 
+
+
 li {
-    display: inline-block;
-    margin: 30px;
-    position: relative;
-    top: 40px;
-    left: 90px;
+    margin: 2em;
+
 }
 
 li a {
     text-decoration: none;
     color: black;
     font-family: 'Inter', sans-serif;
+
+
 }
+
 
 /*Ajoute une bordure rouge en dessous des liens li*/
 li a:hover {
     border-bottom: 2px solid red;
 }
 
-/*Correspond à la photo du logo "Fashion"*/
+
+
 #logo {
+    margin-right: 10%;
+}
+
+/*Correspond à la photo du logo "Fashion"*/
+#logo img {
     width: 250px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    top: -40px;
 
 }
 
+#icones {
+    margin-right: 4.5em;
+
+}
+
+
 /*Représente les icones loupe, coeur, panier etc*/
 .icones img {
-    margin: 12px;
-    position: relative;
-    left: 155vh;
-    top: -100px;
+    margin: 1em;
 
 }
 
